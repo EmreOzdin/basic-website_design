@@ -1,0 +1,234 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.anaBaslik{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #35424A;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 3px solid #A9508A;
+}
+.solBaslik, .sagMenu{
+    padding: 20px;
+}
+.solBaslik{
+    font-size: 32px;
+}
+.solBaslik p{
+    color: white;
+}
+.solBaslik span{
+    color: #A9508A;
+}
+ul{
+    display: flex;
+}
+li{
+    text-decoration: none;
+    list-style: none;
+    margin-left: 50px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: #A9508A;
+}
+
+.anaGovdeUst{
+    background-image: url(./img/showcase.jpg);
+    background-position-y: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 35px;
+    margin-top: 100px;
+}
+.p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: smaller;
+    text-align: center;
+    margin: 0 60px 150px 60px;
+}
+
+.anaGovdeOrta{
+    background-color: #35424A;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.anaGovdeOrta p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+}
+.anaGovdeOrta form{
+    padding-right: 20px;
+    }
+button{
+    background-color: tomato;
+    padding: 5px;
+    border: none;
+    color: white;
+    font-size: x-small;
+}
+input{
+    padding: 4px;
+    width: 150px;
+    font-size: x-small;
+}
+.anaGovdeAlt{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.anaGovdeAlt div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 30px;
+}
+.anaGovdeAlt h2, .anaGovdeAlt p{
+    padding-top: 20px;
+    font-size: 1rem;
+}
+.anaGovdeAlt p{
+    font-size: 0.8rem;
+}
+.altMenu{
+    background-color: #35424A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+.altMenu img{
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+.altMenu p{
+    padding-top: 20px;
+}
+i{
+    font-size: 10px;
+}
+.about{
+    display: flex;
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.aboutUs{
+    padding: 20px 30px;
+}
+.aboutUs p{
+    padding-top: 10px;
+}
+.sag{
+    margin-top: 15px;
+    background-color: #35424A;
+    color: white;
+    padding-left: 20px;
+    padding-right: 10px;
+    margin-top: 10px;
+    padding-top: 40px;
+    margin-right: 20px;
+}
+.sag p{
+    padding-top: 20px;
+}
+.koyuBolum{
+    background-color: #35424A;
+    color: white;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+.services{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 40px;
+    margin-left: 30px;
+    width: 60%;
+    margin-top: -10px;
+}
+.services h2{
+    margin-top: 30px;
+}
+.design{
+    background-color: rgb(230, 228, 228);
+    margin-top: 20px;
+}
+.maintenance{
+    background-color: rgb(230, 228, 228);
+    margin-top: 10px;
+}
+.hosting{
+    background-color: rgb(230, 228, 228);
+    margin-top: 10px;
+}
+.altBolüm{
+    display: flex;
+    justify-content: space-around;
+}
+.design{
+    padding-left: 20px;
+}
+.maintenance{
+    padding-left: 20px;
+}
+.hosting{
+    padding-left: 20px;
+}
+.formServices{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    display: flex;
+    background-color: #35424A;
+    width: 400px;
+    flex-direction: column;
+    margin: 20px 20px;
+    height: fit-content;
+}
+.formServices h2{
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.formServices input, .formServices textarea{
+    margin-left: 10px;
+    width: 90%;
+    padding: 5px 5px;
+}
+.formServices label{
+    padding-left: 10px;
+}
+.formServices button{
+    margin-left: 10px;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.formServices button:hover{
+    cursor: pointer;
+    filter: brightness(120%);
+}
